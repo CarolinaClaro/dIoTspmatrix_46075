@@ -1,0 +1,54 @@
+[1m============================= test session starts ==============================[0m
+[1mcollecting ... [0mcollected 46 items
+
+spmatrix_pytest_priv.py::test_01 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_02 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_03 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_04 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_05 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_06 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_07 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_08 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_09 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_10 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_11 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_12 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_13 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_14 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_15 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_16 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_17 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_18 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_19 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_20 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_21 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_22 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_23 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_24 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_25 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_26 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_27 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_28 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_29 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_30 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_31 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_32 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_33 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_34 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_35 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_36 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_37 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_38 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_39 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_40 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_41 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_42 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_43 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_44 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_45 [31mFAILED[0m
+spmatrix_pytest_priv.py::test_46 [31mFAILED[0m
+
+============================== slowest durations ===============================
+
+(138 durations < 1s hidden.  Use -vv to show these durations.)
+[31m============================== [31m[1m46 failed[0m[31m in 0.02s[0m[31m ==============================[0m
