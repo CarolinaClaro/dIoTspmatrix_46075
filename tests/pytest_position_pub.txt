@@ -1,5 +1,17 @@
 ============================= test session starts ==============================
 collecting ... collected 0 items / 1 error
 
+==================================== ERRORS ====================================
+___________________ ERROR collecting pytest_position_pub.py ____________________
+ImportError while importing test module '/home/dtsd/DTSD/pytest_position_pub.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.9/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+pytest_position_pub.py:4: in <module>
+    from position import *
+dIoTspmatrix_46075/position.py:1: in <module>
+    from sympy import false
+E   ModuleNotFoundError: No module named 'sympy'
 !!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
-=============================== 1 error in 0.06s ===============================
+=============================== 1 error in 0.02s ===============================

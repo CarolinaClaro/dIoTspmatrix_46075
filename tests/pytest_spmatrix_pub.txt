@@ -1,28 +1,19 @@
 ============================= test session starts ==============================
-collecting ... collected 20 items
+collecting ... collected 0 items / 1 error
 
-pytest_spmatrix_pub.py::test_spmatrix_create_with_zero_as_default FAILED [  5%]
-pytest_spmatrix_pub.py::test_spmatrix_create_with_zero_as_1_0 FAILED     [ 10%]
-pytest_spmatrix_pub.py::test_spmatrix_is_of_empty_matrix FAILED          [ 15%]
-pytest_spmatrix_pub.py::test_spmatrix_is_of_non_matrix_float_1 FAILED    [ 20%]
-pytest_spmatrix_pub.py::test_spmatrix_get_of_empty_matrix_with_zero_as_default FAILED [ 25%]
-pytest_spmatrix_pub.py::test_spmatrix_get_of_empty_matrix_with_zero_as_2 FAILED [ 30%]
-pytest_spmatrix_pub.py::test_spmatrix_copy_of_empty_matrix_with_zero_as_2 FAILED [ 35%]
-pytest_spmatrix_pub.py::test_spmatrix_is_after_spmatrix_copy_after_spmatrix_create FAILED [ 40%]
-pytest_spmatrix_pub.py::test_spmatrix_value_set_and_spmatrix_value_get FAILED [ 45%]
-pytest_spmatrix_pub.py::test_spmatrix_value_get_after_replacing_value_with_spmatrix_value_get FAILED [ 50%]
-pytest_spmatrix_pub.py::test_spmatrix_dim_of_empty_matrix FAILED         [ 55%]
-pytest_spmatrix_pub.py::test_spmatrix_dim_of_matrix_with_one_element FAILED [ 60%]
-pytest_spmatrix_pub.py::test_spmatrix_sparsity_of_m2x2_diagonal_matrix FAILED [ 65%]
-pytest_spmatrix_pub.py::test_spmatrix_sparsity_of_matrix_with_1_element_after_element_removal_using_spmatrix_zero_set FAILED [ 70%]
-pytest_spmatrix_pub.py::test_spmatrix_row_m2x2_diagonal FAILED           [ 75%]
-pytest_spmatrix_pub.py::test_spmatrix_col_m2x2_diagonal FAILED           [ 80%]
-pytest_spmatrix_pub.py::test_spmatrix_diagonal_m2x2_diagonal_zero FAILED [ 85%]
-pytest_spmatrix_pub.py::test_spmatrix_diagonal_m2x2_anti_diagonal_zero FAILED [ 90%]
-pytest_spmatrix_pub.py::test_spmatrix_15 FAILED                          [ 95%]
-pytest_spmatrix_pub.py::test_spmatrix_19 FAILED                          [100%]
-
-============================== slowest durations ===============================
-
-(60 durations < 1s hidden.  Use -vv to show these durations.)
-============================== 20 failed in 0.01s ==============================
+==================================== ERRORS ====================================
+___________________ ERROR collecting pytest_spmatrix_pub.py ____________________
+ImportError while importing test module '/home/dtsd/DTSD/pytest_spmatrix_pub.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.9/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+pytest_spmatrix_pub.py:4: in <module>
+    from spmatrix import *
+dIoTspmatrix_46075/spmatrix.py:1: in <module>
+    from asyncio.windows_events import NULL
+/usr/lib/python3.9/asyncio/windows_events.py:3: in <module>
+    import _overlapped
+E   ModuleNotFoundError: No module named '_overlapped'
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.04s ===============================
