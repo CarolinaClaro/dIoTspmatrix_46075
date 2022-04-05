@@ -27,22 +27,7 @@ def spmatrix_zero_set(mat: spmatrix, zero: float):
     if (not(type(mat) == list) or not(type(zero) == float)):
         raise ValueError('spmatrix_zero_set: invalid arguments')
 
-    #set the matrix new zero value   
-    mat[0] = zero
-
-    #remove all items that contain the new zero
-    # temp_list = []
-    # i = 0
-
-    # for pos in mat[1]:
-    #     val = spmatrix_value_get(mat, pos)
-    #     if (val == zero):
-    #         temp_list[i] = val
-    #         i += 1
-    #         print(pos)
-    #         print('!!!!!!')
-    #         print(val)
-    # mat[1].pop(pos)         
+    mat[0] = zero      
 
 def spmatrix_value_get(mat: spmatrix, pos: position) -> float:
     if (not(type(mat) == list) or not(position_is(pos) == True)):

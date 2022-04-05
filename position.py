@@ -1,4 +1,4 @@
-from sympy import false, true
+from sympy import false
 
 
 position = tuple[int, int]
@@ -9,7 +9,12 @@ def position_create(row: int, col: int) -> position:
     return row, col
 
 def position_is(pos: position) -> bool:
-    return type(pos) is tuple
+    row=pos[0]
+    col=pos[1]
+    if not(type(pos) is tuple and (row is int and row>=0) and (col is int and col>=0)):
+        return False
+    else:
+        return True
 
 def position_row(pos: position) -> int:
     row = pos[0]
@@ -32,4 +37,3 @@ def position_str(pos: position) -> str:
     if not(type(pos) is tuple):
         raise ValueError('position_str: invalid arguments')
     return '(' + str(pos[0]) + ', ' + str(pos[1]) + ')'
-
