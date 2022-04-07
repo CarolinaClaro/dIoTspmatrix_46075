@@ -14,4 +14,4 @@ dIoTspmatrix_46075/position.py:1: in <module>
     from sympy import false
 E   ModuleNotFoundError: No module named 'sympy'
 !!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
-=============================== 1 error in 0.03s ===============================
+=============================== 1 error in 0.02s ===============================
